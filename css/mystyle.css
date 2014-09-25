@@ -1,0 +1,147 @@
+html, body {
+	font-size: 16px;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #14acc1;
+	padding: 10% 5%;
+	;
+	color: #ffffff;
+	margin-top: 2em;
+}
+header h1 {
+	font-size: 4em;
+	font-weight: bold;
+}
+.lead {
+	margin-top: 20px;
+	font-size: 36px;
+}
+.secondblock {
+	padding: 0px;
+	background-color: #27212d;
+	color: #ffffff;
+}
+.secondblock h2 {
+	line-height: 200px;
+	margin-left: 100px;
+}
+.rightarrow {
+	width: 200px;
+	height: 200px;
+	background-color: #bc3184;
+	margin-right: -15px;
+	line-height: 200px;
+	text-align: center;
+	margin-top: -1px;
+}
+.myimage, .leftarrow {
+	width: 33.33%;
+}
+.leftarrow {
+	background-color: #000;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	color: #fff;
+}
+.mystyle {
+	padding: 0;
+}
+h3 {
+	color: #14acc1;
+	padding: 10px 0px;
+}
+.contentarea {
+	background-color: #ebebeb;
+	padding: 5px 20px;
+}
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+header {
+	background-color: #14acc1;
+	padding: 10% 4%;
+	;
+	color: #ffffff;
+	margin-top: 1.5em;
+}
+header h1 {
+	font-size: 4em;
+	font-weight: bold;
+}
+.lead {
+	font-size: 24px;
+}
+.secondblock h2 {
+	font-size: 24px;
+	line-height: 150px;
+	margin-left: 30px;
+}
+.rightarrow {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+}
+}
+
+@media screen and (max-width: 720px) {
+header {
+	background-color: #14acc1;
+	padding: 10% 3%;
+	;
+	color: #ffffff;
+	margin-top: 2em;
+}
+header h1 {
+	font-size: 3em;
+}
+.lead {
+	font-size: 20px;
+}
+.secondblock h2 {
+	font-size: 18px;
+	line-height: 100px;
+	margin-left: 20px;
+}
+.rightarrow {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+}
+
+@media screen and (max-width: 479px) {
+header {
+	background-color: #14acc1;
+	padding: 10% 2%;
+	;
+	color: #ffffff;
+	margin-top: 3em;
+}
+header h1 {
+	font-size: 1.5em;
+}
+.lead {
+	font-size: 16px;
+}
+.secondblock h2 {
+	font-size: 12px;
+	line-height: 80px;
+	margin-left: 10px;
+}
+.rightarrow {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+}
+.myimage {
+	width: 100%;
+}
+}
